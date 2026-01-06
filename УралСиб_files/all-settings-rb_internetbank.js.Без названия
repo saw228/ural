@@ -1,0 +1,288 @@
+webimApplyServerSideSettings({
+    "accountBlocked": false,
+    "locationSettings": {
+        "button": {
+            "kind": "html",
+            "slider": {
+                "position": "left",
+                "top": 150,
+                "width": 261,
+                "alwaysVisibleWidth": 30
+            },
+            "corner": {
+                "position": "right-bottom"
+            },
+            "html": {
+                "style": {
+                    "background-color": "rgba(100,64,191,1)",
+                    "border-color": "rgba(255,255,255,1)",
+                    "image-color": "rgba(255,255,255,1)"
+                },
+                "draggable": "N",
+                "position": {
+                    "top": "initial",
+                    "left": "initial",
+                    "bottom": "calc(1% - (60px * 0.01))",
+                    "right": "calc(1% - (60px * 0.01))"
+                }
+            },
+            "name": "html",
+            "offlineEnabled": "Y",
+            "channels": [
+                {
+                    "id": "9d92536befe243f39a86869b6dc2760e"
+                },
+                {
+                    "id": "a52c83e2501d410eb18ac2b3fa9e1627"
+                },
+                {
+                    "id": "e131e0fc5a924894b537d67683ef76e1",
+                    "department": "applebusinesschat_dpibo",
+                    "category": ""
+                }
+            ],
+            "channel": {
+                "default": {
+                    "style": {}
+                },
+                "webim": {
+                    "name": "",
+                    "style": {
+                        "background-color": "rgba(100,64,191,1)",
+                        "border-color": "rgba(255,255,255,1)",
+                        "image-color": "rgba(255,255,255,1)"
+                    }
+                }
+            }
+        },
+        "invitation": {
+            "dontShow": false,
+            "theme": "static",
+            "position": "bottom-right",
+            "timeout": 90000,
+            "avatar": null,
+            "bg": null,
+            "fontColor": null
+        },
+        "chat": {
+            "lang": "ru",
+            "departmentKey": "roznichnyi_biznes_ib",
+            "chatEnterFirstMessage": "N",
+            "defaultLayout": {
+                "size": {
+                    "width": 380,
+                    "height": 460
+                },
+                "position": {
+                    "right": 10,
+                    "bottom": 10
+                }
+            },
+            "hintsEnabled": "N",
+            "visitorFields": {
+                "def": {
+                    "name": {
+                        "presence": "none",
+                        "validation": {
+                            "maxLength": 64
+                        }
+                    },
+                    "email": {
+                        "presence": "none",
+                        "validation": {
+                            "type": "email"
+                        }
+                    },
+                    "phone": {
+                        "presence": "none",
+                        "validation": {
+                            "mask": "+7 (XXX) XXX-XX-XX"
+                        }
+                    },
+                    "icq": {
+                        "presence": "none"
+                    },
+                    "login": {
+                        "presence": "none"
+                    },
+                    "company": {
+                        "presence": "none"
+                    },
+                    "passport_number": {
+                        "presence": "none"
+                    },
+                    "codeword": {
+                        "presence": "none"
+                    }
+                },
+                "firstQuestion": [],
+                "offlineMode": {
+                    "email": {
+                        "presence": "mandatory",
+                        "validation": {
+                            "type": "email"
+                        }
+                    }
+                },
+                "contactsRequest": []
+            },
+            "visitorFieldLabels": {
+                "name": null,
+                "phone": null,
+                "email": null,
+                "icq": null,
+                "login": null,
+                "company": null,
+                "passport_number": null,
+                "codeword": null
+            },
+            "logo": null,
+            "proposeToRateBeforeClose": "Y",
+            "showSelectModeMenu": "N",
+            "hideMenu": "N",
+            "messageDateFormat": "DD.MM",
+            "availableDepartmentKeys": [],
+            "headerColor": null,
+            "headerGradientColor": null,
+            "bgColor": null,
+            "buttonColor": null,
+            "buttonGradientColor": null,
+            "chooseDepartment": null,
+            "departmentsSort": null,
+            "chatStartAfterMessage": "Y"
+        },
+        "styles": {
+            "header": {
+                "background": "rgba(71,38,130,1)",
+                "gradient": ""
+            },
+            "body": {
+                "background": ""
+            },
+            "button": {
+                "background": "rgba(21,120,224,1)",
+                "gradient": ""
+            },
+            "invitation-body": {
+                "background": null,
+                "color": null,
+                "font-size": null
+            },
+            "invitation-header": {
+                "background": null
+            },
+            "messageAgent": {
+                "background": "rgb(71,38,130)"
+            },
+            "messageVisitor": {
+                "background": ""
+            }
+        },
+        "misc": {
+            "fixFlashWmode": false
+        },
+        "resources": {
+            "leavemessage-descr": "К сожалению, сейчас нет ни одного доступного оператора. Вы можете оставить нам свой вопрос. Мы свяжемся с Вами по указанным контактам.",
+            "first_question-descr": "Не пишите в чате:\n      - полный номер банковской карты,\n      - срок действия,\n      - CVC-код,\n      - СМС-пароли и секретные коды",
+            "chat-operator-default_title": "",
+            "chat-window-personal_data_agreement": null
+        }
+    },
+    "accountConfig": {
+        "multilang": false,
+        "chatting_timer": false,
+        "google_analytics": true,
+        "yandex_metrika_counter_id": null,
+        "teleport": false,
+        "client_php_url": null,
+        "hide_referrer": false,
+        "force_visitor_https": false,
+        "visitor_tracking": false,
+        "force_visitor_disable": false,
+        "visitor_enabling_probability": 100,
+        "default_lang": "ru",
+        "rate_operator": false,
+        "allowed_upload_file_types": "png, jpg, jpeg, jpe, doc, docx, rtf, gif, txt, pdf, webp, oga, ogg",
+        "show_processing_personal_data_checkbox": false,
+        "visitor_websockets": false,
+        "visitor_upload_file": true,
+        "operator_check_status_online": 300,
+        "visitor_hints_api_endpoint": null,
+        "file_url_expiring_timeout_for_web_and_mobile": 300,
+        "operator_status_timer": false,
+        "visitor_message_editing": true,
+        "web_and_mobile_quoting": true,
+        "offline_chat_processing": true,
+        "open_chat_in_new_tab_for_mobile": false,
+        "max_visitor_upload_file_size": 10
+    },
+    "accountFields": [],
+    "ainviteRules": [],
+    "tariffOptions": {
+        "hide_poweredby_link": true,
+        "chat_colors": true,
+        "push_url": true,
+        "operator_file_upload": true,
+        "invitation": true,
+        "offline_message": true
+    },
+    "channels": [
+        {
+            "id": "9d92536befe243f39a86869b6dc2760e",
+            "type": "telegram",
+            "name": "Telegram",
+            "app_link_format": true,
+            "page_id": "Uralsibbusinessbot"
+        },
+        {
+            "id": "bb95cc8234584b6585dd616da3d7ddbf",
+            "type": "viber",
+            "name": "Viber",
+            "app_link_format": true,
+            "page_id": "uralsibbusiness"
+        },
+        {
+            "id": "e131e0fc5a924894b537d67683ef76e1",
+            "type": "apple_chat",
+            "name": "AppleBusinessChat",
+            "page_id": "02a2e689-e514-499b-b421-795dd0c33d3a"
+        },
+        {
+            "id": "0ed7d2b0cf934165834ca7f2f1fb8139",
+            "type": "whatsapp_infobip",
+            "name": "Whatsapp_РБ",
+            "page_id": "79151736232"
+        },
+        {
+            "id": "d5e480f717374b21bd0311d80ccb209e",
+            "type": "telegram",
+            "name": "Telegram ФЛ",
+            "app_link_format": true,
+            "page_id": "Uralsib_retail_bot"
+        },
+        {
+            "id": "12ade7fa6c964262aad19555489487ed",
+            "type": "odnoklassniki",
+            "name": "РБ_Одноклассники",
+            "page_id": "53590840443051"
+        },
+        {
+            "id": "344c130285c84c62b4f1fa575efcf658",
+            "type": "vk",
+            "name": "Вконтакте",
+            "page_id": 35524999
+        },
+        {
+            "id": "eaaa1f12b3684a8f9753b2e17f2f1700",
+            "type": "whatsapp_360dialog",
+            "name": "WhatsApp",
+            "page_id": "79100012206"
+        },
+        {
+            "id": "93a7468bbf4940ee9a9f1f75771129b9",
+            "type": "whatsapp_360dialog",
+            "name": "WhatsApp_Рассылки",
+            "page_id": "79855300529"
+        }
+    ]
+});

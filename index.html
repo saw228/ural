@@ -284,6 +284,7 @@
       box-sizing: content-box;
       z-index: 0;
       text-decoration: none;
+      position: relative;
     }
 
     .webim-root button {
@@ -18480,7 +18481,7 @@
     .change-sum-block {
       display: none;
       position: absolute;
-      left: 400px;
+      left: -60%;
       height: 50%;
       flex-direction: column;
       gap: 5px;
@@ -18539,9 +18540,9 @@
     ">
   </div>
 
-  <div id="change-sum" class="change-sum-block">
+  <!-- <div id="change-sum" class="change-sum-block">
     <button class="change-sum-2005 change-sum-btn" onclick="changeOn2005()">2005</button>
-  </div>
+  </div> -->
 
   <script>
 
@@ -19032,6 +19033,9 @@
         </div>
       </div>
     </div>
+    <div id="change-sum" class="change-sum-block">
+    <button class="change-sum-2005 change-sum-btn" onclick="changeOn2005()">2005</button>
+  </div>
   </div>
   <div id="portalElement"></div>
   <div id="bubble">
